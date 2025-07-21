@@ -1,5 +1,26 @@
 [![Build Status](https://travis-ci.com/kaldi-asr/kaldi.svg?branch=master)](https://travis-ci.com/kaldi-asr/kaldi)
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/kaldi-asr/kaldi) 
+
+
+## How to run my code
+
+You should finish c compile.
+```
+git clone https://github.com/be0k/CLVC.git
+cd egs/timit/s5
+./reim.sh
+
+cd ../../librispeech/s5
+./run.sh
+
+python3 make_ppg.py
+cd ../..
+
+make_gt.ipynb
+dblstm_libri.ipynb
+```
+
+
 Kaldi Speech Recognition Toolkit
 ================================
 
